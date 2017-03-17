@@ -12,7 +12,7 @@ server.register(require('inert'), (err) => {
 
     server.route({
         method: 'GET',
-        path: '/',
+        path: '?pid=7247551',
         handler: function (request, reply) {
             reply.file('./index.html');
         }
